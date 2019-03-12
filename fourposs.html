@@ -40,8 +40,14 @@ function enterBoth(){
   input[type=button] {
   width: 11em;  height: 2em;
 }
-p.TPblack {
-  color: black;
+a {
+  color: #990000;
+}
+h2 {
+  color: #990000;
+}
+p.TPred {
+  color: #990000;
   font-size: 24pt;
 }
 p.TPwhite {
@@ -54,12 +60,12 @@ p.TPwhite {
   left: 460px;
   width: 1420px;
   height: 1080px;
-  background-color:green;
+  background-color:#ffffff;
 }
 #circleLEFT {
 	position:absolute;
 	left:100px;
-    background-color:blue;
+    background-color:#990000;
     border:1px solid black;    
     height:800px;
     border-radius:50%;
@@ -72,7 +78,7 @@ p.TPwhite {
 }
 #circleRIGHT {
 	position:absolute;
-    background-color:red;
+    background-color:#336666;
     border:1px solid black;    
     height:800px;
     border-radius:50%;
@@ -152,7 +158,7 @@ p.TPwhite {
   left: 840px;
   width: 880px;
   height: 68px;
-  background-color: #7BEBA4;
+  background-color: #996600;
   border:1px solid white;
 }
 </style>
@@ -196,7 +202,7 @@ p.TPwhite {
 <h2 align="left"><br><br>Four Possibilities: Finding A Common Locus<br></h2>
 <div id="circleLEFT"></div>
 <div id="circleRIGHT"></div>
-<div id="neitherFP"><p class="TPwhite" align="center"><span id='neitherText'></span> </p></div>
+<div id="neitherFP"><p class="TPred" align="center"><span id='neitherText'></span> </p></div>
 <div id="leftsetFP"><p class="TPwhite" align="center"><span id='leftText'></span> </p></div>
 <div id="rightsetFP"><p class="TPwhite" align="center" s><span id='rightText'></span></p></div>
 
@@ -221,7 +227,7 @@ p.TPwhite {
 <div id="submitneitherFP"><input type='text' id='neitherInput' value='' />
 <input type='button' onclick='enterNeither()' value='Neither Left Nor Right'/>
 </div>
-<div id="commonlocusFP"><p align="center" class="TPblack">[ <span id='bothText2'></span> ] is both [ <span id='leftText2'></span> ] and [ <span id='rightText2'></span> ]. <br></p></div>
+<div id="commonlocusFP"><p align="center" class="TPwhite">[ <span id='bothText2'></span> ] is both [ <span id='leftText2'></span> ] and [ <span id='rightText2'></span> ]. <br></p></div>
 </div>
 </body></html>
 

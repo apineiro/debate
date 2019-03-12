@@ -3,8 +3,8 @@ CSS for index.html
 */
 body {
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  color: LightGray;
-  background-color: #000033;
+  color: #990000;
+  background-color: #ffffff;
   line-height: 125%;
   padding: 0;
   margin: 0;
@@ -14,8 +14,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  background-color: #000033;
-  color: Yellow;
+  background-color: #ffffff;
+  color: #990000;
   padding-top: 2em;
   padding-bottom: 1em;
   padding-left: 0em;
@@ -24,17 +24,17 @@ h1 {
 }
 
 h2 {
-  color: Yellow;
+  color: #990000;
   padding-top: 0;
   padding-bottom: .2em;
   padding-left: 0em;
   margin: 0;
   line-height: 100%;
-  background-color: #000033;
+  background-color: #ffffff;
 }
 
 h3 {
-  color: Yellow;
+  color: #990000;
   font-size: 100%;
   font-weight: normal;
   padding-top: 0px;
@@ -46,10 +46,10 @@ ul {
   padding-left: 1em;
 }
 a {
-	color: #FFFFCC;
+	color: #990000;
 }
 a:hover {
-	color: #FFFFCC;
+	color: #990000;
 	text-decoration: underline;
 }
 a.white {
@@ -58,18 +58,18 @@ a.white {
 
 li {
   font-size: normal;
-  color:  #FFFFCC;
+  color:  #990000;
   padding-left: 0em;
 }
 p {
-  color: #FFFFCC;
+  color: #990000;
 }
 
 p.yellow {
-  color: Yellow;
+  color: #990000;
 }
 
-.T31 { font-size:14pt; color:black; }
+.T31 { font-size:14pt; color:#ffffff; }
 
 /*
 CSS div defs
@@ -82,7 +82,7 @@ CSS div defs
   left: 420px;
   width: 880px;
   height: 810px;
-  background-color: #000033;
+  background-color: #ffffff;
 }
 div.static {
   position: relative;
@@ -95,7 +95,7 @@ div.static2 {
   left: 0px;
   height: 500px;
   top: 250px;
-  border:1px solid white;
+  border:1px solid #990000;
 }
 
 div.static3 {
@@ -200,7 +200,7 @@ div.static4 {
 }
 .subject {
 	position:relative;
-    background-color: #000033;
+    background-color: #ffffff;
     border: 3px solid #73AD21;
     height:75px;
     width:250px;
@@ -219,7 +219,7 @@ div.static4 {
 }
 .predicate {
 	position:relative;
-	background-color:green;
+	background-color:#990000;
     border: 3px solid #73AD21;
     height:75px;
     width:200px;
@@ -266,7 +266,7 @@ div.static4 {
   left: 420px;
   width: 880px;
   height: 810px;
-  background-color: #000033;
+  background-color: #ffffff;
 }
 
 

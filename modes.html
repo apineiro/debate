@@ -31,11 +31,15 @@ function enterSubject(){
   width: 8.6em;  height: 2.0em;
 }
 p.TPblack {
-  color: black;
+  color: #ffffff;
   font-size: 18pt;
 }
 p.TPwhite {
-  color: white;
+  color: #ffffff;
+  font-size: 18pt;
+}
+p.TPred {
+  color: #990000;
   font-size: 18pt;
 }
 div.static {
@@ -70,7 +74,7 @@ div.static4 {
     width:50px;
     left:225px;
     top:-312px;
-    background-color:blue;
+    background-color:#336666;
 }
 .outside {
 	position:relative;
@@ -78,12 +82,12 @@ div.static4 {
     width:50px;
     left:225px;
     top:-420px;
-    background-color:green;
+    background-color:#990000;
 }
 .circlebig {
 	position:relative;
-    background-color:green;
-    border:1px solid red;    
+    background-color:#990000;
+    border:1px solid #996600;    
     height:300px;
     border-radius:50%;
     -moz-border-radius:50%;
@@ -95,8 +99,8 @@ div.static4 {
 .circlesmall {
 	position:relative;
 	left:164px;
-    background-color:blue;
-    border:1px solid red;    
+    background-color:#336666;
+    border:1px solid #996600;    
     height:175px;
     border-radius:50%;
     -moz-border-radius:50%;
@@ -110,7 +114,7 @@ div.static4 {
     width:50px;
     left:625px;
     top:-910px;
-    background-color:green;
+    background-color:#990000;
 }
 .outsideRP {
 	position:relative;
@@ -118,12 +122,12 @@ div.static4 {
     width:50px;
     left:625px;
     top:-1000px;
-    background-color:blue;
+    background-color:#336666;
 }
 .circlebigRP {
 	position:relative;
-    background-color:blue;
-    border:1px solid red;    
+    background-color:#336666;
+    border:1px solid #996600;    
     height:300px;
     border-radius:50%;
     -moz-border-radius:50%;
@@ -135,8 +139,8 @@ div.static4 {
 .circlesmallRP {
 	position:relative;
 	left:564px;
-    background-color:green;
-    border:1px solid red;    
+    background-color:#990000;
+    border:1px solid #996600;    
     height:175px;
     border-radius:50%;
     -moz-border-radius:50%;
@@ -146,7 +150,7 @@ div.static4 {
 }
 .consequence {
 	position:absolute;
-	background-color: Gray;
+	background-color: #996600;
     height:200px;
     width:978px;
     left:0px;
@@ -154,7 +158,7 @@ div.static4 {
 }
 .subject {
 	position:relative;
-    background-color: Gray;
+    background-color: #996600;
     height:75px;
     width:250px;
     left:15px;
@@ -163,7 +167,7 @@ div.static4 {
 }
 .isa {
 	position:relative;
-	background-color: Gray;
+	background-color: #996600;
     height:75px;
     width:30px;
     left:240px;
@@ -172,7 +176,7 @@ div.static4 {
 }
 .predicate {
 	position:relative;
-	background-color:gray;
+	background-color:#996600;
     height:75px;
     width:200px;
     left:335px;
@@ -181,7 +185,7 @@ div.static4 {
 }
 .because {
 	position:relative;
-	background-color: gray;
+	background-color: #996600;
     height:90px;
     width:40px;
     left:555px;
@@ -189,7 +193,7 @@ div.static4 {
 }
 .reason {
 	position:relative;
-	background-color:gray;
+	background-color:#996600;
     height:75px;
     width:190px;
     left:675px;
@@ -217,8 +221,8 @@ div.static4 {
   top: 20px;
   left: 420px;
   width: 880px;
-  height: 810px;
-  background-color: #000033;
+  height: 110px;
+  background-color: #ffffff;
 }
 
 </style>
@@ -290,7 +294,7 @@ div.static4 {
 <div class="static2" id='reveal'>
 <p align="left">Step 2. Ascertain that the Reason is a Quality of the Subject:</p> 
 
-<p  class="TPwhite" align="center">The subject, [<span id='subjectText2' style="color:white" ></span>] is [<span id='reasonText2'></span>]. </p> 
+<p  class="TPred" align="center">The subject, [<span id='subjectText2' style="color:#990000" ></span>] is [<span id='reasonText2'></span>]. </p> 
 
 
 <p align="left">Step 3: Determine whether the Forward and Reverse Pervasions are Valid:</p>
